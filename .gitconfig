@@ -1,0 +1,17 @@
+[user]
+    name = anonymous
+    email = anonymous@really-not-extist-domain.tld
+
+[push]
+    default = simple
+
+[alias]
+    lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%an, %ci)' --abbrev-commit
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+
+[core]
+    autocrlf = input
+    quotepath = false
